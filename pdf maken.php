@@ -15,7 +15,6 @@ pdf_set_info($pdf, "Keywords", "pdf phphulp tutorial "); // keywords instellen
 // Acties als de pagina word geopend
 // Volledige pagina openen
 pdf_set_parameter($pdf, "openaction", "fitpage"); // Openingsactie
-
 // Trumbnails openen
 pdf_set_parameter($pdf, "openmode", "thumbnails");
 
