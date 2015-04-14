@@ -6,9 +6,9 @@ $pdf = pdf_new();
 // PDF maken in geheugen maar nog niet wegschrijven, dit kan d.m.v. laatste parameter niet invullen:
 PDF_open_file($pdf, "");
 
-pdf_set_info($pdf, "Author", "Robert-Jan"); // Auteur instellen
+pdf_set_info($pdf, "Author", "Lorena"); // Auteur instellen
 pdf_set_info($pdf, "Title", "Mijn eerste pdf"); // Titel instellen
-pdf_set_info($pdf, "Creator", "Robert-Jan");    // Maker instellen
+pdf_set_info($pdf, "Creator", "Lorena");    // Maker instellen
 pdf_set_info($pdf, "Subject", "Mijn eerste pdf"); // Onderwerp instellen
 pdf_set_info($pdf, "Keywords", "pdf phphulp tutorial "); // keywords instellen
 
