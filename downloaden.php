@@ -1,5 +1,5 @@
 <?php
-$file = 'monkey.gif';
+$file = 'servernaam/PDF/' . $_GET['file'];
 
 if (file_exists($file)) {
     header('Content-Description: File Transfer');
